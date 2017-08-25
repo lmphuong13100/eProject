@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <div class="breadcrumb">
+            <div class="container">
+                <h1 class="page-title">Tất cả sản phẩm</h1>
+                <div class="c-bread">
+                    <ul class="list-unstyled">
+                        <li><a href="/">Trang chủ</a></li>
+                        <li class="divide">/</li>
+                        <li class="current">Tất cả sản phẩm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="page page-collection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-md-push-4 col-lg-push-3 col-lg-9">
+                        <div class="toolbar clearfix">
+                            <div class="sortby">
+                                <a href="javascript:void(0);" class="btn-dropdown dropDownButton" data-target="#sortBy">Sắp xếp sản phẩm <i class="fa fa-angle-down"></i></a>
+                                <ul class="list-unstyled dropList" id="sortBy" style="display:none">
+                                    <li><a href="default">Mặc định</a></li>
+                                    <li><a href="alpha-asc">A &larr; Z</a></li>
+                                    <li><a href="alpha-desc">Z &larr; A</a></li>
+                                    <li><a href="price-asc">Giá tăng dần</a></li>
+                                    <li><a href="price-desc">Giá giảm dần</a></li>
+                                    <li><a href="created-asc">Hàng cũ nhất</a></li>
+                                    <li><a href="created-desc">Hàng mới nhất</a></li>
+                                </ul>
+                            </div>
+                            <div class="view">
+                                <a href="javascript:void(0);" class="switch-view active grid" data-view="grid" data-toggle="tooltip" title="Dạng lưới"></a>
+                                <a href="javascript:void(0);" class="switch-view list" data-view="list" data-toggle="tooltip" title="Dạng danh sách"></a>
+                            </div>
+                        </div>
+                        <div class="collectionDisplay">
+                            <div class="collection-grid">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                        <div class="product-grid product-ajax-cart">
+                                            <div class="level-pro-sale"><span>-12%</span></div>
+                                            <div class="product-img">
+                                                <a href="/products/den-ban-forsa" title="Đèn bàn Forsa">
+                                                    <img src="//bizweb.dktcdn.net/100/101/204/themes/513544/assets/waiting.jpg?1499741777641" data-original="//bizweb.dktcdn.net/thumb/large/100/101/204/products/forsa-work-lamp-black-0438829-pe591859-s4-jpg.jpg?v=1467367517857" alt="Đèn bàn Forsa" class="img-fix lazy img-product-ajax-cart"/>            
+                                                    <noscript><img src="//bizweb.dktcdn.net/thumb/large/100/101/204/products/forsa-work-lamp-black-0438829-pe591859-s4-jpg.jpg?v=1467367517857" alt="Đèn bàn Forsa" class="img-fix"/></noscript>
+                                                </a>
+                                                <a href="javascript:void(0);" class="button dashed quickview-btn" data-countdown="kmdn_ngay31_thang12_nam2017" id="den-ban-forsa">Xem nhanh</a> 
+                                            </div>
+                                            <h3 class="title-product-ajax-cart"><a href="/products/den-ban-forsa" title="Đèn bàn Forsa">Đèn bàn Forsa</a></h3>
+                                            <div class="price">
+                                                <span class="price-product-ajax-cart">440.000₫</span> <del>500.000₫</del>
+                                            </div>
+                                            <form class="actions form-ajax-action clearfix" method="post" action="/cart/add">
+                                                <input type="hidden" name="variantId" value="4778747"/>
+                                                <input type="hidden" name="quantity" value="1"/>
+                                                <button class="button dashed add-cart"><i class="fa fa-shopping-cart"></i> Cho vào giỏ</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toolbar text-center foot" style="margin-top:15px">
+                                    Trang:
+                                    <ul class="paginate list-unstyled">
+                                        <li><span data-toggle="tooltip" data-placement="top" title="Trang 1">1</span></li>
+                                        <li><a href="javascript:void(0);" data-page="2" data-toggle="tooltip" data-placement="top" title="Trang 2">2</a></li>
+                                        <li><a href="javascript:void(0);" data-page="3" data-toggle="tooltip" data-placement="top" title="Trang 3">3</a></li>
+                                        <li><a href="javascript:void(0);" data-page="4" data-toggle="tooltip" data-placement="top" title="Trang 4">4</a></li>
+                                        <li><a href="javascript:void(0);" data-page="5" data-toggle="tooltip" data-placement="top" title="Trang 5">5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-md-pull-8 col-lg-pull-9 col-lg-3">
+                        <script src='//bizweb.dktcdn.net/100/101/204/themes/513544/assets/search_filter.js?1499741777641' type='text/javascript'></script>
+                        <div class="filter-container">
+                            <div class="filtersTool selectedFilter widget-collection" style="display: none;">
+                                <h2>Bạn đã chọn</h2>
+                                <a href="javascript:void(0);" id="filterClearAll" class="filterClearAll">Bỏ hết <i class="fa fa-angle-right"></i></a>
+                                <div class="selectedFilterList">
+                                    <ul class="list-unstyled"></ul>
+                                </div>
+                            </div>
+                            <link href='//bizweb.dktcdn.net/100/101/204/themes/513544/assets/jquery-ui.min.css?1499741777641' rel='stylesheet' type='text/css' />
+                            <script src='//bizweb.dktcdn.net/100/101/204/themes/513544/assets/jquery-ui.min.js?1499741777641' type='text/javascript'></script>
+                            <div class="filtersTool filterRange widget-collection">
+                                <h2>Lọc theo giá</h2>
+                                <div class="filterToolGroup">
+                                    <div id='slider'></div>
+                                    <div class="clearfix">
+                                        <div id='start' class="left"><input value="0"/></div>
+                                        <div id='stop' class="right"><input value="2000000"/></div>
+                                    </div>
+                                    <a id="old-value" href="javascript:;"></a>
+                                    <a id="filter-value" class="button type_2" href="javascript:void(0);">Lọc</a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="filtersTool filterCheckbox widget-collection">
+                                <h2>Lọc theo thương hiệu</h2>
+                                <div class="filterToolGroup">
+                                    <ul class="list-unstyled clearfix">
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-bosch" data-group="Hãng" data-field="vendor" data-text="Bosch" value="(Bosch)" data-operator="OR"/>
+                                            <label for="filter-bosch"><i class="fa fa-check"></i>Bosch</label>
+                                            <span>Bosch</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-brother" data-group="Hãng" data-field="vendor" data-text="Brother" value="(Brother)" data-operator="OR"/>
+                                            <label for="filter-brother"><i class="fa fa-check"></i>Brother</label>
+                                            <span>Brother</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-canon" data-group="Hãng" data-field="vendor" data-text="Canon" value="(Canon)" data-operator="OR"/>
+                                            <label for="filter-canon"><i class="fa fa-check"></i>Canon</label>
+                                            <span>Canon</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-epson" data-group="Hãng" data-field="vendor" data-text="Epson" value="(Epson)" data-operator="OR"/>
+                                            <label for="filter-epson"><i class="fa fa-check"></i>Epson</label>
+                                            <span>Epson</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-figal" data-group="Hãng" data-field="vendor" data-text="Figal" value="(Figal)" data-operator="OR"/>
+                                            <label for="filter-figal"><i class="fa fa-check"></i>Figal</label>
+                                            <span>Figal</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-fuji" data-group="Hãng" data-field="vendor" data-text="Fuji" value="(Fuji)" data-operator="OR"/>
+                                            <label for="filter-fuji"><i class="fa fa-check"></i>Fuji</label>
+                                            <span>Fuji</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-hp" data-group="Hãng" data-field="vendor" data-text="HP" value="(HP)" data-operator="OR"/>
+                                            <label for="filter-hp"><i class="fa fa-check"></i>HP</label>
+                                            <span>HP</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-ikea" data-group="Hãng" data-field="vendor" data-text="IKEA" value="(IKEA)" data-operator="OR"/>
+                                            <label for="filter-ikea"><i class="fa fa-check"></i>IKEA</label>
+                                            <span>IKEA</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-plustek" data-group="Hãng" data-field="vendor" data-text="Plustek" value="(Plustek)" data-operator="OR"/>
+                                            <label for="filter-plustek"><i class="fa fa-check"></i>Plustek</label>
+                                            <span>Plustek</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-samsung" data-group="Hãng" data-field="vendor" data-text="Samsung" value="(Samsung)" data-operator="OR"/>
+                                            <label for="filter-samsung"><i class="fa fa-check"></i>Samsung</label>
+                                            <span>Samsung</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-thong-nhat" data-group="Hãng" data-field="vendor" data-text="Thống nhất" value="(Thống nhất)" data-operator="OR"/>
+                                            <label for="filter-thong-nhat"><i class="fa fa-check"></i>Thống nhất</label>
+                                            <span>Thống nhất</span>
+                                        </li>
+                                        <li class="checkbox clearfix">
+                                            <input type="checkbox" id="filter-unic" data-group="Hãng" data-field="vendor" data-text="Unic" value="(Unic)" data-operator="OR"/>
+                                            <label for="filter-unic"><i class="fa fa-check"></i>Unic</label>
+                                            <span>Unic</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="widget-collection">
+                            <h2>Sản phẩm khuyến mại</h2>
+                            <ul class="list-unstyled list-products">
+                                <li class="clearfix">
+                                    <a href="/products/may-phat-dien-transmeco" class="image"><img src="//bizweb.dktcdn.net/thumb/medium/100/101/204/products/may-phat-dien-kawa-1.jpg?v=1467385511367" width="70" alt="Máy phát điện Transmeco"/></a>
+                                    <div class="info">
+                                        <h3><a href="/products/may-phat-dien-transmeco">Máy phát điện Transmeco</a></h3>
+                                        <p class="price">         
+                                            <span>7.000.000₫</span>
+                                            <del>7.500.000₫</del>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="/products/den-ban-nyfors" class="image"><img src="//bizweb.dktcdn.net/thumb/medium/100/101/204/products/nyfors-work-lamp-0099655-pe241849-s4-jpg.jpg?v=1467370040027" width="70" alt="Đèn bàn Nyfors"/></a>
+                                    <div class="info">
+                                        <h3><a href="/products/den-ban-nyfors">Đèn bàn Nyfors</a></h3>
+                                        <p class="price">         
+                                            <span>1.299.000₫</span>
+                                            <del>1.499.000₫</del>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="/products/den-ban-forsa" class="image"><img src="//bizweb.dktcdn.net/thumb/medium/100/101/204/products/forsa-work-lamp-black-0438829-pe591859-s4-jpg.jpg?v=1467367517857" width="70" alt="Đèn bàn Forsa"/></a>
+                                    <div class="info">
+                                        <h3><a href="/products/den-ban-forsa">Đèn bàn Forsa</a></h3>
+                                        <p class="price">         
+                                            <span>440.000₫</span>
+                                            <del>500.000₫</del>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="/products/den-ban-barometer" class="image"><img src="//bizweb.dktcdn.net/thumb/medium/100/101/204/products/images-temp-green-construction.jpg?v=1467364809810" width="70" alt="Đèn bàn Barometer"/></a>
+                                    <div class="info">
+                                        <h3><a href="/products/den-ban-barometer">Đèn bàn Barometer</a></h3>
+                                        <p class="price">         
+                                            <span>750.000₫</span>
+                                            <del>950.000₫</del>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="/products/ghe-phong-hop-vilmar" class="image"><img src="//bizweb.dktcdn.net/thumb/medium/100/101/204/products/patrik-conference-chair-blue-0251787-pe390566-s4-jpg-55810fdc-b841-4121-b20e-4c43d8984750.jpg?v=1467288286273" width="70" alt="Ghế phòng họp Vilmar"/></a>
+                                    <div class="info">
+                                        <h3><a href="/products/ghe-phong-hop-vilmar">Ghế phòng họp Vilmar</a></h3>
+                                        <p class="price">         
+                                            <span>899.000₫</span>
+                                            <del>1.099.000₫</del>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget-collection recently-viewed-products" style="display:none">
+                            <h2>Sản phẩm đã xem</h2>
+                            <ul class="list-unstyled list-products" id="recently-viewed-products">       
+                            </ul>
+                        </div>
+                        
+                        <div class="widget-banner">
+                            <div class="banner">
+                                <a href="#">
+                                    <img src="//bizweb.dktcdn.net/100/101/204/themes/513544/assets/banner-collection.jpg?1499741777641" alt="" class="img-fix"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </h:body>
+</html>
+

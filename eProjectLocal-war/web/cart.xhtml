@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="/template/common/commonLayout.xhtml">
+            <ui:define name="header">
+                <ui:include src="/template/common/commonHeaderContent.xhtml"/>
+            </ui:define>
+
+            <ui:define name="content">
+                <section class="page-cart"> 
+                    <div class="container">
+
+
+                        <form action="/cart" method="post">
+                            <div class="table-responsive">
+                                <table class="table table-cart">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:100px;text-align:center;">Ảnh</th>
+                                            <th>Tên sản phẩm</th>
+                                            <th style="width:150px">Giá lẻ</th>
+                                            <th style="width:100px">Số lượng</th>
+                                            <th style="width:150px">Tổng cộng</th>
+                                            <th style="width:50px">Xóa</th>
+                                        </tr>                  
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <a href="/may-phat-dien-transmeco?variantid=4781933">
+
+                                                    <img title="Máy phát điện Transmeco" src="//bizweb.dktcdn.net/thumb/large/100/101/204/products/may-phat-dien-kawa-1.jpg?v=1467385511367" class="img-fix"/>
+
+                                                </a>
+                                            </td>
+                                            <td><a href="/may-phat-dien-transmeco?variantid=4781933">Máy phát điện Transmeco</a></td>
+                                            <td>7.000.000₫</td>
+                                            <td><input type="text" value="1" min="1" class="input-control type_1" name="Lines"/></td>
+                                            <td><b>7.000.000₫</b></td>
+                                            <td><a href="/cart/change?line=1&amp;quantity=0" data-toggle="tooltip" data-placement="top" title="Xóa"><i class="fa fa-trash"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="button-cart">
+                                <button class="button type_2" name="update">Cập nhật</button>
+                                <a href="/collections/all" class="button type_1">Tiếp tục mua hàng</a>
+                            </div>
+                        </form>
+                        <div class="cart_total">
+                            <h2>Tổng cộng</h2>
+                            <table class="total-table">
+                                <tr>
+                                    <td>Tạm tính</td>
+                                    <td>8.739.000₫</td>
+                                </tr>
+                                <tr>
+                                    <td>Phí vận chuyển</td>
+                                    <td>Tính khi thanh toán</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Thuế</td>
+                                    <td>Tính khi thanh toán</td>
+                                </tr>
+                                <tr>
+                                    <td>Tổng cộng</td>
+                                    <td>8.739.000₫</td>
+                                </tr>              
+                            </table>
+                            <a href="/checkout" class="button type_2">Tiến hành thanh toán</a>
+                        </div>
+
+                    </div>
+                </section>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

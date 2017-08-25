@@ -1,0 +1,50 @@
+.has-icon > ul > li a:before{opacity:0.8;}
+.breadcrumb {
+	background-image: url("//bizweb.dktcdn.net/100/101/204/themes/513544/assets/breadcrumb2.jpg?1490583201176");
+}
+.top-header, .mid-header .cart-control .cart-number, .special-product-countdown p, .quickViewCountDown p, #footer .copyright, 
+.btn-fixed .btn, .hotro .sup-fixed, .top-index .slideshow .owl-controls .owl-prev, .top-index .slideshow .owl-controls .owl-next, .button.type_1, 
+.product-single .product-seller .seller, .top-header .sup-online .wrap-sup, .offset-menu, .header-panel-mobile .sup-mobile, .header-panel-mobile ul.top-linklists-mobile {
+	background: #39342e
+}
+.top-header .sup-online .wrap-sup:after {border-bottom-color:#39342e}
+.hotro .sup-fixed:after {border-left-color:#39342e}
+.mid-header .shop-cart:hover .cart-item span, .bottom-header .main-nav > li.active > a, .bottom-header .main-nav > li:hover > a, 
+.bottom-header .main-nav .has-sub ul li:hover > a, .product-grid .actions .button:hover, .product-grid .level-pro-sale, .button.type_2, 
+.filterRange .ui-slider-horizontal .ui-slider-range, .btn-fixed .btn:hover, .special-collection .special-product .p-action .button:hover, 
+.product-list .product-info form .button:hover {
+	background:#8ac400
+}
+.quickViewWrapper .quickViewSwatchElement input[type="radio"]:checked + label, .header-panel-mobile .cart-number {
+	background-color:#8ac400
+}
+.top-header a:hover, .mid-header .shop-cart:hover>a, .mid-header .shop-cart a:hover, .bottom-header .main-nav .megamenu ul li:hover, .main-category h2, 
+.main-category .desktop-category > li > a:hover, .main-category .desktop-category .subcate li:hover, .special-collection .special-product .p-info h3:hover, 
+.special-collection .special-product .price .amount, .product-grid .price span, .button.dashed:hover, .button.dashed:active, .product-grid h3:hover
+.quickViewWrapper .quickViewProductTitle:hover, .quickViewWrapper .quickViewProductPrice span, 
+.collection-area .control-tabs .nav-tabs li.active > a, .collection-area .control-tabs .nav-tabs li.active > a:focus, 
+.collection-area .control-tabs .nav-tabs li.active > a:hover, .product-grid h3:hover, .collection-area .readmore:hover,
+.collection-area .control-tabs .nav-tabs > li > a:hover, .post-grid .entry-content .entry-meta h3:hover, .post-grid .entry-content .readmore, #footer .social a:hover, 
+#footer .top-footer .linklists li:hover, #footer .copyright a, .widget-collection .list-products h3:hover, .widget-collection .list-products .price span, 
+.toolbar .sortby .btn-dropdown:hover, .product-list .product-info h3:hover, .product-list .product-info .price span, .product-single .product-price span, 
+.swatch input:checked + label, .product-single .product-tabs .navtabs li.active a, .widget-collection .list-subcate li:hover a, .widget-collection .list-post h3:hover, 
+.page-article .comment-area .comment-list .comment-content .comment-meta .action-link:hover, .top-header ul.top-linklists > li:hover > a, .orderFormWrapper .orderFormTitle, 
+.paginate li:hover a, .paginate li span {
+	color: #8ac400
+}
+.input-control:hover, .input-control:focus, .mid-header .shop-cart:hover .cart-control, .mid-header .shop-cart .mini-cart-content, 
+.button.dashed:hover, .button.dashed:active, .product-grid .actions .button:hover, #footer .social a:hover, 
+.quickViewWrapper .quickViewSwatchElement input[type="radio"]:checked + label, .filterRange .ui-state-default, .filterRange .ui-widget-content .ui-state-default, 
+.swatch input:checked + label, .page-article .comment-area .comment-list .comment-content .comment-meta .action-link:hover, .form-newsletter .input:focus {
+		border-color:#8ac400;
+	}
+.mid-header .shop-cart .mini-cart-content:after {border-bottom-color:#8ac400;}
+.big-collection.s1 .collection-area .control-tabs .title-big-collection {
+	color: #ff9800
+}
+.big-collection.s2 .collection-area .control-tabs h2 {
+	color: #44adff
+}
+.big-collection.s3 .collection-area .control-tabs h2 {
+	color: #ffd700
+}

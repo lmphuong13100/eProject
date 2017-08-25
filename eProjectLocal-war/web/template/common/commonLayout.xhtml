@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Xem demo theme</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'/>
+        <link href="./resources/css/all_styles.css" rel="stylesheet" type="text/css"/>
+        <link href="./resources/css/settings.css" rel="stylesheet" type="text/css"/>
+        <link href="./resources/css/responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="./resources/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="./resources/js/option-selectors.js" type="text/javascript"/>
+        <script src="./resources/js/countdown.js" type="text/javascript"/>
+        <script src="./resources/js/important_plugin.js" type="text/javascript"/>
+        <script src="./resources/js/jquery.lazyload.min.js" type="text/javascript"/>
+        <script src="./resources/js/jquery.plugin.min.js" type="text/javascript"/>
+        <script src="./resources/js/plugin_necessary.js" type="text/javascript"/>
+        <script src="./resources/js/jquery.products.min.js" type="text/javascript"/>
+        
+        <script src="./resources/js/main.js" type="text/javascript"/>
+
+    </h:head>
+    <h:body>
+        <div id="page">
+            <nav class="offset-menu offset-menu-left" id="offset-menu-s1">
+                <div class="offset-menu-wrapper">		
+                    <ul class="list-unstyled mobile-menu"> 
+                        <li><a href="/">Trang chủ</a></li>
+
+                        <li class="has-sub">
+                            <a href="/collections/all">Sản phẩm</a><em><i class="fa fa-angle-down"></i></em>
+                            <ul class="list-unstyled" style="display:none">
+                                <li><a href="/xu-huong-moi">Xu hướng mới</a></li>
+                                <li><a href="/trang-tri-van-phong">Trang trí văn phòng</a></li>
+                            </ul>    
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="/blogs/all">Tin tức</a><em><i class="fa fa-angle-down"></i></em>
+                            <ul class="list-unstyled" style="display:none">
+                                <li><a href="/xu-huong-moi">Xu hướng mới</a></li>
+                                <li><a href="/trang-tri-van-phong">Trang trí văn phòng</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                        <li><a href="/lien-he">Liên hệ</a></li>
+                    </ul>		
+                </div>
+            </nav>
+            <div id="header">
+                <ui:insert name="header" >
+                    <ui:include src="/template/common/commonHeader.xhtml" />
+                </ui:insert>
+            </div>
+
+            <div id="content">
+                <ui:insert name="content" >
+                    <ui:include src="/template/common/commonContent.xhtml" />
+                </ui:insert>
+            </div>
+
+            <div id="footer">
+                <ui:insert name="footer" >
+                    <ui:include src="/template/common/commonFooter.xhtml" />
+                </ui:insert>
+            </div>
+
+        </div>
+        <div class="btn-fixed">    
+            <div class="hotro">
+                <a href="javascript:void(0);" class="btn" id="btn-hotro"><i class="fa fa-headphones" title="Hỗ trợ trực tuyến"></i> </a>
+                <div class="sup-fixed">
+
+                    <div class="entry-person clearfix">
+                        <img src="./resources/img/sp2.jpg" class="img-avatar" alt="Hỗ trợ 1"/>
+                        <div class="info-person">
+                            <h5>Hỗ trợ 1</h5>
+                            <a href="ymsgr:SendIM?hotro1" class="yahoo chat_icon"></a><a href="skype:hotro1?chat" class="skype chat_icon"></a><a href="tel:0123456789">0123456789</a>
+                        </div>
+                    </div>
+
+                    <div class="entry-person clearfix">
+                        <img src="./resources/img/sp2.jpg" class="img-avatar" alt="Hỗ trợ 2"/>
+                        <div class="info-person">
+                            <h5>Hỗ trợ 2</h5>
+                            <a href="ymsgr:SendIM?hotro2" class="yahoo chat_icon"></a><a href="skype:hotro2?chat" class="skype chat_icon"></a><a href="tel:0213456789">0213456789</a>
+                        </div>
+                    </div>
+
+                    <div class="entry-person clearfix">
+                        <img src="./resources/img/sp2.jpg" class="img-avatar" alt="Hỗ trợ 3"/>
+                        <div class="info-person">
+                            <h5>Hỗ trợ 3</h5>
+                            <a href="ymsgr:SendIM?hotro3" class="yahoo chat_icon"></a><a href="skype:hotro3?chat" class="skype chat_icon"></a><a href="tel:031293338">031293338</a>
+                        </div>
+                    </div>
+
+                    <div class="entry-person clearfix">
+                        <img src="./resources/img/sp2.jpg" class="img-avatar" alt="Hỗ trợ 4"/>
+                        <div class="info-person">
+                            <h5>Hỗ trợ 4</h5>
+                            <a href="ymsgr:SendIM?hotro4" class="yahoo chat_icon"></a><a href="skype:hotro4?chat" class="skype chat_icon"></a><a href="tel:0419222484">0419222484</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--BackTOP -->
+            <a href="javascript:void(0);" class="btn" id="backtop"><i class="fa fa-angle-up"></i> <span class="tooltips">Lên đầu trang</span></a>
+        </div>
+    </h:body>
+</html>
+
